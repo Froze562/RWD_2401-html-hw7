@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.product_Cart{
+    width: 500px;
+    background: white;
+    padding: 8px;
+    border: 7px inset purple;
+}
+.a{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+}
+.b1{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    transition: 1s;
+}
+.b1:hover{
+    color: green;
+    text-decoration: underline;
+    transition: .8s;
+}
+.b2{
+    color: green;
+    font-size: 20px;
+}
+li{
+    color: gray;
+    margin-bottom: 5px;
+}
+button{
+    width: 100%;
+    background: aqua;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    transition: .8s;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
